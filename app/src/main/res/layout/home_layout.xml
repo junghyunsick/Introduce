@@ -20,6 +20,16 @@
         android:layout_gravity="center"
         android:layout_marginTop="16dp"/>
 
+    <!-- 추가된 부분: 이름, 나이, MBTI 정보를 표시할 TextView -->
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
     <!-- 다양한 위젯들을 추가하여 자유롭게 디자인합니다. -->
 
     <Button

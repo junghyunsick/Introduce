@@ -11,12 +11,28 @@
         android:src="@drawable/logo"
         android:layout_gravity="center"/>
 
+    <!-- 아이디를 입력하는 칸 위에 추가된 TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
     <EditText
         android:id="@+id/editTextUsername"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="아이디"
+        android:hint="@string/sign_in"
         android:inputType="text"/>
+
+    <!-- 비밀번호를 입력하는 칸 위에 추가된 TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
 
     <EditText
         android:id="@+id/editTextPassword"
@@ -29,12 +45,12 @@
         android:id="@+id/buttonSignIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="로그인."/>
+        android:text="로그인." />
 
     <Button
         android:id="@+id/buttonSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="회원가입"/>
+        android:text="회원가입" />
 
 </LinearLayout>

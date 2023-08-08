@@ -8,8 +8,16 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/signup_title"
+        android:src="@drawable/logo"
         android:layout_gravity="center"/>
+
+    <!-- 이름칸 위에 추가된 TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
 
     <EditText
         android:id="@+id/editTextName"
@@ -18,12 +26,28 @@
         android:hint="이름"
         android:inputType="text"/>
 
+    <!-- 아이디칸 위에 추가된 TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
     <EditText
         android:id="@+id/editTextNewUsername"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:hint="아이디"
         android:inputType="text"/>
+
+    <!-- 비밀번호칸 위에 추가된 TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
 
     <EditText
         android:id="@+id/editTextNewPassword"
@@ -36,6 +60,6 @@
         android:id="@+id/buttonSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="회원가입"/>
+        android:text="회원가입" />
 
 </LinearLayout>
